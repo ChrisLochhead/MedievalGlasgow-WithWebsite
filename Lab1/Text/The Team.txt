@@ -1,0 +1,20 @@
+Welcome to the team page! This games project was developed by two 4th year students at the University of the west of Scotland: Chris Lochhead and Niclas Jonsson.
+<br>
+<img src="Images/Chris.jpg" width="600" height="400" class="tm-team-images"/>
+<br>
+<h3 class="tm-team-headers">Chris Lochhead</h3>
+<br>
+Chris is one half of the dream team behind this games project and the developer of the website you find yourself on currently. While pursuing a PhD in Computer Science and AI, Chris
+enjoys programming games and coming up with complex and often times ridiculous stories to drive them. For this game in particular, many of the themes were developed from Chris' time living
+in Maryhill. Realising the line between violence and satire was so thin in Glasgows west-end, he realised it was a perfect narrative to develop a video game from, which he has done twice
+now including this project. The first was "A Day in Glasgow": a much more primitive text-based game developed as a means to learn C++.
+<br><br>
+<img src="Images/Niclas.jpg" width="600" height="400" class="tm-team-images"/>
+<br><br>
+<h3 class="tm-team-headers">Niclas Jonsson</h3>
+<br>
+Niclas is the other half of this team, using his flare for design as a driving force for the design elements of this game. From concepts to assets Niclas is the one to trust
+with creating an easthetically pleasing and well designed game. Not to assume that his talents stop there, Niclas is arguably the best programmer on the course, winning the court medal
+his first year of University and only narrowly losing out the Chris in the third year medal. Niclas' interests lie in VR and games technology, with an interest in working in the games
+industry as a VR developer. 
+

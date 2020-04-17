@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Lab</title>
+    <!-- Online font dependencies -->
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- All css contained in the single main css file -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Import dependencies from other js files -->
+    <script src="IndexCode.js"> </script>
+
+
+</head>
+<!-- Body contains the top banner implementation, standard to every html page -->
+<body background="Images/DarkGrayBackground.jpg">
+<header class = "tm-header" >
+    <div class = "tm-container">
+    <img src="Images/Logo.png" alt="logo" width="200" height="100" class = "tm-logo" onmousedown="returnToHome()"/>
+   <!-- links to other pages -->
+   <nav class="tm-nav">
+        <ul>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="Design.html">Design</a></li>
+            <li><a href="team.html?myVar=The Team">Team</a></li>
+            <li><a href="blog.html">Developer Blog</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<!-- Division contains the default starting wiki page "gareth of dunbar" -->
+<div class = "tm-container">
+    <div class = "tm-banner">
+        <h1 class = "tm-banner-header"> Medieval Glasgow </h1>
+            <h2 class = "tm-banner-title"> The legend of Dunbar </h2>
+    </div>
+    <div class = "tm-article-container">
+        <h1 class = "tm-article-heading"> Featured Article: Gareth of Dunbar </h1>
+        <img src="Images/Gareth%20Of%20Dunbar.jpg" width="1200">
+        <!-- side menu with links to related articles -->
+           <aside class = "tm-suggested-item-container">
+               <div>
+               <h3 class = "tm-article-heading"> Suggested Articles </h3>
+                    <ul>
+                        <li><a href="wiki.html?myVar1=Dave O Summerston">Dave 'O' Summerston </a></li>
+                        <img src="Images/Dave%20O%20Summerston.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Dave O Summerston')" />
+                        <li><a href="wiki.html?myVar1=Corsa"> Corsa </a></li>
+                        <img src="Images/Corsa.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Corsa')">
+                        <li><a href="wiki.html?myVar1=Gando the Grey"> Gando the Grey </a></li>
+                        <img src="Images/Gando%20the%20Grey.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Gando the Grey')">
+                        <li><a href="wiki.html?myVar1=Possil">  Possil </a></li>
+                        <img src="Images/Possil.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Possil')">
+                    </ul>
+               </div>
+           </aside>
+                    <p class = "tm-paragraph tm-content" id="Gareth Of DunbarArticle" ></p>
+    </div>
+</div>
+</body>
+<!-- footer standard to every page -->
+<footer>
+    <h1 class = "tm-footer">University Of the West of Scotland: Web Games Development 2 </h1>
+</footer>
+</html>

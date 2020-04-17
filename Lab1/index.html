@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Lab</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="IndexCode.js"> </script>
+
+
+</head>
+<body background="Images/DarkGrayBackground.jpg">
+<header class = "tm-header" >
+    <div class = "tm-container">
+    <img src="Images/Logo.png" alt="logo" width="200" height="100" class = "tm-logo" onmousedown="returnToHome()"/>
+   <nav class="tm-nav">
+        <ul>
+            <li><a id="Link1" onmouseover="mouseHoverOn()" onmouseout="mouseHoverOff()" href="https://www.facebook.com">Game</a></li>
+            <li><a href="https://www.facebook.com">Design</a></li>
+            <li><a href="team.html?myVar=The Team">Team</a></li>
+            <li><a href="blog.html">Developer Blog</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<div class = "tm-container">
+    <div class = "tm-banner">
+        <h1 class = "tm-banner-header"> Medieval Glasgow </h1>
+            <h2 class = "tm-banner-title"> The legend of Dunbar </h2>
+    </div>
+    <div class = "tm-article-container">
+        <h1 class = "tm-article-heading"> Featured Article: Gareth of Dunbar </h1>
+        <img src="Images/Gareth%20Of%20Dunbar.jpg" width="1200">
+           <aside class = "tm-suggested-item-container">
+               <div>
+               <h3 class = "tm-article-heading"> Suggested Articles </h3>
+                    <ul>
+                        <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Dave O Summerston">Dave 'O' Summerston </a></li>
+                        <img src="Images/Dave%20O%20Summerston.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Dave O Summerston')" />
+                        <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Corsa"> Corsa </a></li>
+                        <img src="Images/Corsa.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Corsa')">
+                        <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Gando the Grey"> Gando the Grey </a></li>
+                        <img src="Images/Gando%20the%20Grey.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Gando the Grey)'">
+                        <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Possil">  Possil </a></li>
+                        <img src="Images/Possil.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Possil')">
+                    </ul>
+               </div>
+           </aside>
+                    <p class = "tm-paragraph tm-content" id="Gareth Of DunbarArticle" ></p>
+    </div>
+</div>
+</body>
+<footer>
+    <h1 class = "tm-footer"> </h1>
+</footer>
+</html>

@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 40px;
+}
+.tm-header
+{
+    background: url("Images/LightGrayBackground.jpg");
+}
+.tm-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tm-suggested-item-container{
+    max-width: 25%;
+    float: right;
+}
+
+.tm-suggested-item-container div{
+    background: url("Images/GrayBackground.jpg");
+    padding: 30px;
+}
+.tm-suggested-item-container ul{
+    list-style: none;
+}
+.tm-suggested-item-container ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: white;
+}
+
+.tm-suggested-item-container ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.tm-article-container{
+    margin: 0 auto;
+    float: left;
+}
+.tm-content{
+    max-width: 75%;
+}
+.tm-banner{
+    background: url("Images/GrayBackground.jpg");
+    text-align: center;
+}
+.tm-banner-header{
+    color: darkred;
+    text-decoration: underline;
+}
+.tm-banner-title{
+    color: darkslategrey;
+}
+
+.tm-nav ul li {
+    display: inline;
+    float: right;
+}
+.tm-nav ul li a{
+    padding: 10px 20px;
+    line-height: 100px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.tm-nav ul li a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.tm-logo{
+    float: left;
+}
+.tm-footer{
+    clear: both;
+    background: url("Images/LightGrayBackground.jpg");
+    text-align: center;
+    font-size: 50px;
+    color: darkslategrey;
+    height: 50px;
+}
+.tm-image-debug{
+    display: block;
+}
+
+.tm-article-heading{
+    background: url("Images/GrayBackground.jpg");
+    text-align: center;
+    font-size: 50px;
+    color: darkred;
+}
+.tm-paragraph{
+    text-align: justify;
+    padding: 10px;
+    background: rgba(255, 255, 255, .7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+
+}
+.tm-paragraph a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.tm-paragraph a:hover{
+    color: darkblue;
+}
+.tm-header:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+h1{
+    font-size: 7em;
+    color: white;
+}
+
+.tm-team-headers{
+    font-size: 45px;
+    font-weight: bolder;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+.tm-team-articles{
+    float:right;
+    text-align: justify;
+}
+.tm-team-images{
+    float:left;
+    padding: 20px;
+}

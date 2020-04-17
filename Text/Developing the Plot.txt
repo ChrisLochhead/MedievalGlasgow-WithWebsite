@@ -1,0 +1,40 @@
+Besides doing the revision lab for HTML and CSS, the majority of my study time this week was spend working on plot development
+and developing a story to fit our chosen setting and game genre. As the game is supposed to be multiplayer, I knew firstly I 
+had to come up with 2 main characters to base the story around.
+<br><br>
+<h3 class = "tm-blogpost-subtitle">Gareth of Dunbar</h3>
+<br>
+While still a working title, Gareth of Dunbar will be the main character of this name. Gareth of Dunbar is based on a member of the CGT 
+course and a personal friend who lives in Possil Park. I discussed with him the idea and he, along with the inspiration for the second
+main character, were more than happy to be used as inspiration for our game. The next working title as of writing this is Gareth De Wyndford:
+The Wyndford is a river that runs through Maryhill near Possil Park and makes for a more satirically regal sounding name to the uninitated.
+<br><br>
+<h3 class = "tm-blogpost-subtitle">Dave 'O' Summerston</h3>
+<br>
+Like Dunbar, Dave is based on another CGT member and resident of Summerston, hence the name. These two are extremely close friends who have
+known eachother an incredibly long time, a bond we intend to use as inspiration for the brotherly comradeship demonstrated by these two
+main characters.
+<br>
+While writing the first draft of the GDD, I settled on a rough story for the game, told through a main quest line four adventures long.
+Questing seemed to be the most appropriate way to deliver the narrative of the game as it is an ideal storytelling method used and almost
+all open-world games from Runescape to Grand Theft Auto. Four quests were agreed by myself and Niclas to be a good number for a manageable 
+amount of content within the timeframe we have been given. 
+<br>
+So the story will essentially be Gareth and Dave in their journey to collect enough money to pay the vet bill on Gareths horse, Corsa. Only
+with Corsa's leg fixed can Gareth and Dave finally leave Possil for better opportunities and a better life in general. The four quests are
+taken from the local seer "Gando the Grey", based on a person called "Gando" who is reportedly quite infamous in the Possil area for his antics
+and are as follows:
+<br><br>
+<ul>
+<li>The first quest will involve finding the components of and making a potion to give to Gando to relieve him of the effects of Magic Mushrooms
+so that he will be legible enough to speak to properly.</li> 
+<li>The second quest will be running an errand for Gando to fix his back which leaves him permanently bent at a 90 degree angle. This quest however
+will feature combat.</li>
+<li> Quest number three will be defeating a monster that has been terrorising the residents of Possil.</li>
+<li> The final quest will feature Gando as the final boss after discovering it was him who released the monster in quest three on Possil in the first
+place.</li>
+</ul>
+<br>
+This is the rough outline of the story as of week two, the full fleshed out story will be contained within the GDD available on this site in 
+the "Design" section. The plan for next week is to finish the draft of this GDD and pass it on to Niclas, finish my website and begin learning
+Javascript in anticipation for building the game itself. 

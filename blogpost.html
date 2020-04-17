@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Team of Dream</title>
+    <!-- Online font dependencies -->
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- All css contained in the single main css file -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Import dependencies from other js files -->
+    <script src="IndexCode.js"> </script>
+    <script src="WikiCode.js"> </script>
+</head>
+<!-- Body section contains standard banner with links to other pages -->
+<body background="Images/DarkGrayBackground.jpg">
+<header class = "tm-header" >
+    <div class = "tm-container">
+        <img src="Images/Logo.png" alt="logo" width="200" height="100" class = "tm-logo" onmousedown="returnToHome()"/>
+        <nav class="tm-nav">
+            <ul>
+                <li><a id="Link1" onmouseover="mouseHoverOn()" onmouseout="mouseHoverOff()" href="game.html">Game</a></li>
+                <li><a href="Design.html">Design</a></li>
+                <li><a href="team.html?myVar=The Team">Team</a></li>
+                <li><a href="blog.html">Developer Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Divisions contain the containers for both the background and the blog post text -->
+<div class = "tm-blogpost-container">
+    <div class = "tm-blogpost-container-inner">
+        <img src = "Images/LightGrayBackground.jpg" id="ArticleImage" width="1200" height="450" onmousedown="returnToHome()"/>
+        <h1 class = "tm-blogpost-title" id="ArticleHeading"> </h1>
+    </div>
+    <div class = "tm-article-container">
+        <p class = "tm-paragraph " id="MainArticle" ></p>
+    </div>
+</div>
+</div>
+</body>
+<!-- Standard footer -->
+<footer>
+    <h1 class = "tm-footer">University Of the West of Scotland: Web Games Development 2 </h1>
+</footer>
+</html>

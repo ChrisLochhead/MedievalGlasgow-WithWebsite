@@ -1,0 +1,52 @@
+This week began a new module named Web Games Development 2: the second part of a web games development
+class. While my course was not given the first part of this course, CGD was so I realised immediately
+that the learning curve may be quite steep. We were then given a run down of the requirements for this module. 
+Firstly we were to assemble into groups of two to four and come up with a concept for a game that we can develop
+and deploy on a web page. We also have to compose a thorough GDD documenting this game as a group and individually 
+develop websites to host the game on.
+<br><br>
+<h3 class = "tm-blogpost-subtitle">The Team</h3>
+Myself and Niclas, having teamed up for every group coursework in fourth year done so again for this module. We
+briefly considered joining with two others on our course however in our experience larger groups lead to more being
+expected of us and far harsher marking. Not only that but a group of four would require the designation of a leader
+and co-ordinating our work effort would be more difficult.
+<br><br>
+<h3 class = "tm-blogpost-subtitle">The Game</h3>
+The first order of business was to determine what genre of game we would make. We didn't want to settle with a generic
+racing or shooting game as no doubt most people typically would as indicated by the lecturer: we instead opted for a 
+small RPG fantasy adventure game. Our lecturer stressed that the game try to include some unique functionality,
+so we opted for an RPG due to the versatility the genre offers in terms of gameplay. We decided we would implement
+a crafting system, some puzzle based gameplay and a combat system to give the gameplay ample depth. 
+<br><br>
+Next to figure out was the plot of the story. I had previously made a text-based game which served as a satirical
+commentary of life in Glasgow and we thought injecting the game with some comedy would help our game stand out. As
+a result, we decided on a game based in the Possil Park district of Glasgow but in the setting of a medieval fantasy.
+The basic idea of the plot became that it would be about a resident of this area trying to escape to a better life,
+combating the sheer lunacy of the ancient realm of Possil's residents.
+<br><br>
+In terms of style, we decided that low-definition designs such as pixel-art would be the way to go for a number of 
+reasons. Firstly, pixel-art was easy to create quickly as there is only two of us and less than 3 months to create
+this entire game including the website and GDD. We also wanted the game to be reminiscent of the old Pokemon games
+available on the Gameboy and also have a game with assets light-weight enough to be effectively deployable in a 
+multiplayer web game. Having the game be multiplayer is mandatory, so we decided we would have two base playable
+character with their own backstories and strengths.
+<br><br>
+<h3 class = "tm-blogpost-subtitle">The Plan</h3>
+We decided on a broad plan of action which was the following to be acheived by next week:
+<br><br>
+Chris
+<ul style="list-style: circle;">
+<li> Start work on the HTML5 training so Niclas can be helped when he goes to make his own</li>
+<li> Make a rough draft of a game design document</li>
+<li> Come up with a rough story line </li>
+</ul>
+<br><br>
+Niclas
+<ul>
+<li> Start work on Phazer to determine exactly what is possible and how steep the learning curve will be </li>
+<li> Investigate similar games for inspiration and begin asset development</li>
+<li> Brainstorm story ideas </li>
+</ul>
+<br><br>
+If we can quickly achieve these initial goals we will no doubt be on good footing for this module and able to afford
+ourselves ample time to learn the programming disciplines we will be subject to aswell.

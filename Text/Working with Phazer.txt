@@ -1,0 +1,32 @@
+As the games design document is well underway and the website is basically finished, I began to look further
+towards developing the game itself. Outside of this project, my Javascript knowledge is limited to the coding challenge
+videos I have watched online and as such I have little practical experience of the language. I have also never even heard of
+the Phaser engine before this year so I knew that the learning curve for this project may be steep. To this end I have decided
+to start the implementation as early as possible in an attempt to mitigate the time-consuming problems I would likely face.
+<br><br>
+<img = src="Images/GameImage.PNG" width = "1150" height = "500">
+<br><br>
+I decided to start small, get a repo working with Phaser, commit it to source control and start playing around with the functionality.
+If I could get a moving player, a working inventory, gear and quest menu's I would have a solid foundation in both the game itself and my 
+understanding of Javascript at large. As expected, I ran into significant problems such as learning to implicitly declare functions that use
+Phaser functionality as they would not work unless used in a function recognised by the engine. 
+<br><br>
+<h3 class = "tm-blogpost-subtitle">Game Status</h3>
+<br>
+As of the writing of this blog, I have achieved the following:
+<br>
+<ul>
+<li> A moving playing that rotates to which direction he is moving.</li>
+<li> A fully functional gear tab for equiping and un-equipping armour and weapons</li>
+<li> A partly functional inventory (only works for gear and not consumables or picking items of the ground yet</li>
+<li> A partly functional quest menu (does not display any text, just lists the quests which can be clicked on to create an empty dialogue</li>
+<li> A dynamic text box which can be opened and closed</li>
+<li> Health and mana bars that update with the players current stat values</li>
+</ul>
+<br>
+<h3 class = "tm-blogpost-subtitle">Plan</h3>
+<br>
+Niclas has implemented the source control and implemented xammp for our eventual multiplayer implementation. As of now for the next week
+the plan is for Niclas to finish the redrafted GDD I gave him in the previous week and finish some basic assets to replace the placeholders
+I am using currently. As for myself, I want to spend the next week finishing the inventory and tab system while potentially implementing some rudimentary
+conversational functionality with NPCs.

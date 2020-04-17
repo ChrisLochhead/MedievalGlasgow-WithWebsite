@@ -1,0 +1,305 @@
+<h2 style = "text-align: center; font-size: 60px;" >Abstract</h2>
+<hr/>
+<p style = "text-align: center; margin: 0px 150px; font-family: 'Roboto', sans-serif; font-size: 20px">
+Take the number 60A horse and carriage and journey to the mystical land of Possil.
+Find adventure, opportunity, friends; and possibly a nasty 
+infection as you travel the land in search of greater treasures.</p>
+<br><br>
+<h2 style = "text-align: center; font-size: 60px;" >1. Introduction</h2>
+<br>
+<img src = "Images/MainMenu.png" style = "width: 1200px" >
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 1.1: Game Logo </p>
+<br><br>
+The title of the game described in this document is “Medieval Glasgow: Escape from Possil”. This game is a multi-player RPG adventure game,
+aimed at a younger audience generally, with a more specific focus on 14-25 year old residents of Scotland and even more specifically Glasgow 
+and the surrounding areas. The game is developed using Phaser 3 in JavaScript using WebStorm 2019 as the IDE. This game is intended to be 
+deployed as a web game, taking inspiration from some of the most well-known web-based RPGs from the golden age of web games in the early 2000’s 
+such as Runescape (Jagex, 2001), World of Warcraft (Blizzard, 2004) and Asheron’s Call (Turbine Entertainment, 1999). Medieval Glasgow aims to 
+redefine the genre of medieval fantasy using a modern satirical twist.
+<br><br>
+Section 3 of this document will provide a high-level overview of the game’s concepts, inspirations and overall design. This will also include
+an introduction into the plot of the game and a discussion of the primary game elements. The structure and design of this document takes influence
+from professional games design documents made Bioshock() and Grand Theft Auto(). Also discussed in section 3 is the visual design concepts used in 
+the creation of this game. Section 4 provides insight into the implementation of the game, going into greater detail with the gameplay mechanics involved 
+in the game and how they are achieved. Section 5 goes on to provide a breakdown of the team involved including individual members, delegation of duties
+and the development timeline. Section 6 concludes this document with a list of references and appendices used.
+<br><br>
+<h2 style = "text-align: center; font-size: 60px;">2. Game Design</h2>
+<hr/>
+<h3>2.1. Concept</h3>
+<br>
+Medieval Glasgow is a game developed to provide a satirical commentary of the city of Glasgow through the setting of a medieval fantasy. Inspiration
+for the game concept was derived from a previous work of team member Christopher Lochhead, a text-based game called “A Day in Glasgow”: another game
+based on taking a satirical look at Glasgow from an outsider’s perspective. While A Day in Glasgow was designed to emphasise the absurdity of Glasgow 
+through the guise of an outsider (in its case, someone from Edinburgh), Medieval Glasgow is designed more as a first-person perspective of someone living
+in Glasgow, hence the targeted audience being specifically Scottish residents. Several of the running themes and jokes are those that most in the UK
+would be able to understand on a basic level giving potential for a greater target audience, however those who will understand the more subtle jokes
+and pieces of commentary will be the residents of Glasgow themselves.
+<br>
+While older web based games were used as inspiration for the plot and gameplay at large, the more lower level, game-defining gameplay mechanics take
+inspiration from games from multiple platforms. The Pokémon game series (Nintendo, 1996) released for the Gameboy Advanced along with Dragon Ball Z: Legacy of Goku (Atari Inc, 2002)
+provided the main inspiration, including the inspiration for the art style employed for the assets in-game, the combat mechanics and shopping mechanics.
+Combat mechanics are mostly based of MineCraft (Mojang, 2009) and Stardew (Barone; Sickhead Games, 2016).
+<br>
+Other primary influences include World of Warcraft (Blizzard Entertainment, 2004), RuneScape (Jagex, 2001) and its old school equivalent (Jagex, 2015)
+which inspired the questing system, inventory and equipment mechanics. Minecraft (Mojang, 2009) is also cited as a primary influence for the development
+of the game map, textures and crafting mechanics. 
+<br><br>
+<h3>2.2. Plot Overview</h3>
+<br>
+The plot follows a young minor noble living in the ancient mystical land of Possil Park named Gareth of Dunbar. Dunbar’s life is hard,
+and there are many dangers and few opportunities in Possil. In order to make life better for himself, Dunbar is attempting to gather
+the money and resources to leave the land and make a better life for himself. This mainly involves gathering the funds to pay a vet to
+heal his family horse’s broken leg, named Corsa. He is accompanied by his long-time friend, Dave ‘O’ Summerston in his quest. In order
+to secure the funds for Corsa’s service, he must complete a number of quests offered by the local Seer, Gando the Grey. These quests are
+fraught with danger and are all geared towards the benefit of the residents of Possil, as young Dunbar completes these quests, he may 
+realise that you can take the man out of Possil but seldom can you take Possil out of the man.
+<br><br>
+<h3>2.3. Gameplay</h3>
+<br>
+Medieval Glasgow is an open world RPG game, experienced through a top-down format like DBZ: Legacy of Goku (Atari Inc 2002) and Hotline Miami
+(Devolver Digital, 2012). The players will be able to wander through the city of Possil, however in the beginning most of the map will be 
+locked behind quests offered by the main quest line from Gando the Grey. This main quest series will feature 4 quests, largely combat-oriented,
+as follows:
+<br>
+<ul>
+<li>Upon first approaching Gando for a quest, he is visibly inebriated, barely dressed and completely incomprehensible. Dave, using his
+unrivalled knowledge in herblore, deduces that Gando has consumed a copious amount of Mescaline. Dunbar and his group elect to find the
+local Mage to obtain a potion of sobriety to remove the Mescaline’s effects so they can speak with the Seer. In this quest the player
+will be required to find the locations of herbs dotted throughout Possil's initial area before fighting off a team of track-suited brigands.</li> 
+<li>When Gando has been revived, Dunbar will discuss with the Seer his desire to leave Possil and his need of money. Gando offers him 
+payment if he can discover the cure for his back condition which has left him constantly standing bent over at a 90 degree angle. This
+second quest will feature more detective work and a boss fight with the handy-looking trolly boy at the potion emporium of “As-dah” near
+the keep of Summerston.</li>
+<li>Delighted with his recovered back, Gando pays far less than is needed to fix Corsa’s broken leg. Before Dunbar can react in anger, Gando
+claims to know of a mythical beast tormenting the village named the “Nee-claws” and he guarantees that the villagers would pay Dunbar more 
+than he needs in exchange for killing the beast.</li> 
+<li>After beating the Nic-laws, the villagers reveal that Gando has plenty of money, and the Nic-laws was actually one of his failed experiments
+ that he released on the villagers accidentally. After confronting and defeating Gando, he proceeds to fold his back in half again, before robbing
+ his house of its riches and using that to pay for Corsa’s service. The game ends with Gareth and Dave celebrating at the Drumchapel inn, only to
+ discover once leaving that his Corsa has been stolen by the locals, leaving open the possibility to extended DLC or a sequel.</li>
+</ul>
+<br>
+Aside from these 4 main quests, other activities will be available to the player such as killing the roaming bands of enemy NPCs patrolling the city.
+This allows for non-quest related gameplay in which the player can upgrade their stats and weaponry and gain extra money in order to make themselves
+stronger for the next quest in the main series, following a format similar to Skyrim (Bethesda, 2011) and Assassins Creed: Origins (Ubisoft, 2017).
+Potential additions to this game could include having fully fleshed out side-quests offered by the various residents of Possil, however time and manpower
+limits make such content unlikely to appear in the final submission.
+<br><br>
+<h3>2.4. Crafting</h3>
+<img src = "Images/CraftingMenu.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.1: Sketch for crafting menu. </p>
+<br>
+A crafting system is employed in this game for crafting armour and upgrading weapons.  The weapons and armour, like the setting and characters, will be
+derived from the modern-day town of Possil with a medieval element. The initial weapon for example will be the ancestral mace of house Dunbar, which looks
+uncannily like a Sports Direct baseball bat. Other weapons include the legendary longsword named “Chib” and a melee gauntlet named “Duster”. These weapons
+will have the ability to be upgraded using parts purchased from the shops around Possil, which increase their attributes including their damage, swing-rate
+and range. Armour in Medieval Glasgow is comprised mainly of tracksuits. Dunbar begins the game with a basic “Dawnay” tier tracksuit, which can either be
+upgraded to give the player higher defence or other skill boosts such as heightened stamina or forgone entirely for the higher tier suits of track as they
+are known in-game.
+<br><br>
+<h3>2.5. Shopping</h3>
+<img src = "Images/ShopMenu.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.2: Sketch for shopping menu. </p>
+<br>
+The unit of currency in this game is the “Smackerooney”, gained from completing the main quests or killing enemies and spent in the shops dotted around the game.
+The three basic shops are the potion shop, the Armourers and the weapon smith. Each of the four areas contain one of each shop, each with a different inventory
+of goods. Each area being locked behind a quest in the main series means that in order to unlock the higher tiered gear, the player must complete the main story.
+Players can resell their items only back to the shop where they bought them, for a discounted price of 70%. In the weaponsmith and armourer parts and items can
+be bought with which to upgrade existing armour or weapon pieces. In the potion shop, similar purchases can be made instead buying the scrolls to learn new, more
+powerful spells to be equipped in the off-hand slot.
+<br><br>
+<h3>2.5. User Interface</h3>
+<img src = "Images/UI.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.3: Sketch for player user interface. </p>
+<br><br>
+The User Interface (UI), designed to fit the same pixel-art theme as the game, is also designed to be minimalistic and intuitive. The basic UI template is shown
+in Figure 2.3 Concept UI (Not to scale)Figure 2.3 with the right hand of the screen featuring the interchangeable inventory and equipment menu, inspired from other
+RPGs such as RuneScape (Jagex, 2001) and World or Warcraft. The Inventory screen has space for 12 unique items, however items such as money can be stacked and will
+only consume one space. The limited inventory space requires the player to use their space efficiently, only buying and carrying what is absolutely essential. This
+theme of space scarcity was an interesting game mechanic employed to great success in Old School Runescape (Jagex, 2015) in their “Ultimate Ironman” mode.
+<br>
+<img src = "Images/EquipmentMenu.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.4: Equipment menu. </p>
+<br><br>
+The equipment menu contains space for a helmet, a top and bottom armour piece, weapon and off-hand item. The off-hand item can be assigned to a spell, otherwise
+defensive items can be put in its place, such as a shield. At the bottom of this menu, a button can be pressed which displays the players various stats provided
+both by the players level and equipment bonuses:
+<br><br>
+<ul>
+<li>Attack bonus</li>
+<li>Defense bonus</li>
+<li>Magic bonus</li> 
+<li>Magic Defense bonus</li>
+<li>Total extra health</li>
+<li>Total extra mana</li>
+</ul>
+<br>
+The player will have these stats at a base according to their level, with the equipment they wear providing further boosts.
+<br>
+<img src = "Images/QuestMenu.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.5: Quest menu. </p>
+<br>
+On the top left of the UI is a dropdown menu which logs the players quests, including those completed, uncompleted and in progress, denoting by their colouring 
+(green, red and yellow respectively). When a quest name is clicked on, it will open a further menu Figure 2.5 providing the player with the current objective
+of the mission.
+<br>
+The top right of the UI, Figure 2.3 displays the players vital stats being their health, mana, level and experience. These notify the character of their maximum
+and current values in both their health and mana and includes numbers indicating how much more experience the player requires before levelling up.
+<br><br>
+The bottom of Figure 2.3 shows the dialogue screen, only present when the player is conversing with an NPC. Designed to be simple, with a font style that is easy to
+read, the dialogue screen is the main device of the games narrative to keep the player informed of the story and their objectives at any point in time.
+<br><br>
+<h3>2.6. Asset Design</h3>
+<br>
+As the game must be lightweight not only as it is intended to be a game deployable on a web page but also due to the limited time allocated for its production; 
+a pixel-art theme has been adopted for the art style of the environments. Aside from making the asset development stage of this games development easier and less
+time consuming, it also makes for easier level construction by using a modular framework. 
+<br>
+The assets colour palette will be based of the real-life colour theme of Possil, to provide a familiar atmosphere to the Scottish audience. This colour palette
+will be used to design the medieval objects. As the aim is to create an atmosphere of a dreary, soaked, poverty-stricken town – a palette of greys and browns
+will be predominant in the theme of this games design.
+<br><br>
+<img src = "Images/Map.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.6: Initial Map sketch. </p>
+<br><br>
+<h3>2.7. Environment</h3>
+<br>
+Each element is designed individual as “tiles” such as shops, NPC’s, ground textures and background buildings. With only minor adaptions entirely new and diverse
+maps can be made from the same building blocks. This allows for greater scope for larger maps or even further DLC based developments to the game.
+<br>
+Several games were used as inspiration for the environment design of Medieval Glasgow. The textures are inspired from old RPG Gameboy games such as the Pokémon
+series of games (Nintendo, 1996) released on that device and DBZ: Legacy of Goku. More modern games such as Terraria (Re-Logic, 2011) and Minecraft (Mojang, 2009) 
+were also used as inspiration for the modular and simple design scheme.
+<br><br>
+<h3>2.8. Models</h3>
+<br>
+<img src = "img/Gareth.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 2.7: Initial Gareth Sprite. </p>
+<br>
+The models for the characters themselves have been designed based on designs from Old School RuneScape (Jagex, 2015) and Minecraft (Mojang, 2009): low poly and
+aesthetic designs yet with enough detail so that new armour and weapons make a significant and appealing visual difference. This allows for a greater sense of
+satisfaction and accomplishment for a player creating and equipping the higher tier equipment.
+<br><br>
+The game features two attack styles; magic and melee. The design for the melee attacks are characterised by simple swings of independent weapon sprites 
+(Barone; Sickhead Games, 2016) whereas magic attacks are dominated by ranged attacks not dissimilar to the ranged energy attacks featured in Dragon Ball Z games
+(Atari Inc, 2002). These attacks are brought to life as animated sprites which change in size and colour depending on the type of spell being used. This will further
+entice the player into levelling up their character and attaining more powerful spells so that their player can use the more impressive looking attacks.
+<br><br>
+<h2 style = "text-align: center; font-size: 60px;">3. Game Implementation</h2>
+<hr/>
+<h3>3.1. Conversation System</h3>
+<br>
+Like most popular online RPG web-based games, such as RuneScape (Jagex, 2001) and World of Warcraft (Blizzard Entertainment, 2004), Medieval Glasgow will have a text 
+based element for driving conversation progression and decision making. This was chosen primarily as a pragmatic alternative to recording voices for the characters
+in order to progress the narrative of the game. The player has the ability to choose from a selection of responses in any given scenario, which while not changing
+the outcome of the quest at large, can have impact on the conversation and implores the player to use investigatory skills in order to guide the conversation to get
+the information they need from any given NPC that they speak to. 
+<br><br>
+<h3>3.2. Crafting</h3>
+<br>
+Crafting is a core concept of Medieval Glasgow and is accomplished in a very simple and easy to understand fashion. Instead of having excessively long crafting menus
+like Minecraft or requiring the consultation of a Wikipedia page to find the correct crafting parts like Runescape, Medieval Glasgow offers a more simple approach, 
+achievable due to its relatively small size. 
+<img src = "Images/OtherCrafting.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 3.1: Concept crafting menu. </p>
+<br>
+As Figure 3.1 shows, instead of a generalised crafting menu, each craft-able and upgradeable item can be right clicked to show potential upgrades, with the upgrades
+currently possible highlighted in green. Each upgradeable object will contain references to all the items which can potentially be used on it, which are then searched
+for in the players inventory when right clicked on. Selecting to craft the new item will remove the crafting components from the players inventory and transform the
+old item into its upgraded counterpart, complete with upgraded sprite and model appearances.
+<br><br>
+<h3>3.3. Equipment Menu</h3>
+<br>
+The equipment menu contains several helpful pieces of functionality for the players ease of use. When hovering over equipped items, a small window will appear captioning
+the name of the item and its stats. By left clicking, assuming the inventory has a space free, it will remove the item. Removing an item will instantly update the players
+stat bonuses offered by their remaining items visible in the equipment menu.
+<br><br>
+<h3>3.4. Inventory</h3>
+<br>
+The inventory provides a number of pieces of helpful functionality. By right clicking on items, players can browse various options available to the item. Subjective functions
+include equipping only for equip-able items, consuming only for potions and food and crafting options only for upgrade-able items. The one function common to all items within
+the inventory is the drop function, which will rid the player of the selected item. 
+<br><br>
+<h3>3.5. Combat System</h3>
+<br>
+Combat is the core of this game and as such a significant amount of developer time was allocated to producing a sufficiently complex combat system. Like DBZ: Legacy of Goku
+(Atari Inc, 2002) among others, combat is not turn based but dependant on game ticks and more fluid as a result. Players can rapidly swing their sword according to their
+swords swing rate, then immediately fire a magic attack from their off-hand. Strategy and tactics are vital in combat in Medieval Glasgow, certain bosses will have different
+play styles and the player will have to adapt to overcome them. For example, Gando, being a Seer, employs a Mage based attack style with high magic defence, meaning the player
+would be wise to equip items with higher melee offense and magic defence and opting for a magic based strategy.
+<br><br>
+<h3>3.6. Death and Respawning</h3>
+<br>
+Upon death, the player will be returned to their house if they have not spoken to Gando yet, otherwise they will be respawned outside Gando’s flat. All their vital stats such
+as health and mana will be restored to full. In the hard mode version of this game, experience will be lost equivalent to 50% of the current threshold for the players next
+level. This can essentially de-level a player, making them weaker even to the extent that any items they wear may all the sudden become too high level for them to equip.
+In this case, any items that are no longer equip-able will be unequipped as standard, or, if there is no space in the players inventory, the item will have its effects 
+negated until the player is a high enough level to use it again.
+<br><br>
+<h3>3.7. Saving and Loading</h3>
+<img src = "Images/UML1.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 3.2: UML of saving functionality. </p>
+<br>
+Saving and loading progress through the game will be possible. When the player saves Their position in world space, their health, mana, level and experience are all 
+saved to a text file, downloaded by the player, in comma separated value format. If a player is mid-way through a quest, this will also be saved as each combat
+or puzzle event and NPC conversation is encoded as a phase of the quest and each quest is encoded as its own unique integer value. These values are all recorded
+to allow for previously completed quests to likewise be saved in this manner.
+<br><br>
+<h2 style = "text-align: center; font-size: 60px;">4. Project Management</h2>
+<hr/>
+<h3>4.1. Overview</h3>
+<br>
+The game Medieval Glasgow is being developed by a team of two developers, Christopher Lochhead and Niclas Jonsson. As there are only two members of this group, the allocation of
+a group leader was determined to be pointless as there was not enough team members to merit having a member act as administrator between them. As a result, both members divided 
+the work to their relative strengths, with Christopher drafting the majority of the documentation and developing the low level game functionality and Niclas designing the assets
+for the game, developing multiplayer capabilities and menu systems. 
+<br>
+Aside from these duties, the rest of the major tasks were undertaken as a group effort. Both strong programmers, yet new to web development, Phaser 3 and JavaScript itself,
+the burden of actual game programming was shared equally. Other shared tasks included website development, the conception of the plot, theme and scope of the game and final 
+drafting of this game design document.
+<br><br>
+<h3>4.2. Project Timeline</h3>
+<img src = "Images/Gantt.png"  class = "tm-center">
+<p style = "text-align: center; font-family: 'Roboto', sans-serif; font-size: 16px;" >Figure 4.1: Project Gantt chart. </p>
+<br>
+The Gantt chart in figure 5.1 illustrates the initial development structure employed. It was foreseen due to the team’s lack of previous experience in JavaScript and web development,
+that significant changes in the game and its scope would occur and as such an AGILE development methodology was adopted. This development methodology allowed for mistakes and 
+setbacks, yet also provided adequate time for testing individual components, namely the networking component and components related to gameplay which were likely to be troublesome
+to create; namely the crafting menu and combat system.
+<br>
+Every task has at minimum 125% the time we expect it to take allocated to it to allow for problems when learning the new IDE and programming language, particularly early on in the
+projects development life cycle. As the project progresses, this chart will likely be heavily subjected to change however it will still be used as a solid foundation for our
+developmental aims week after week. We have also divided the tasks to our relative strengths and attempted to allocate the more time consuming tasks to members at times in the 
+cycle when they are more available to spend more time on them, for example having the more difficult tasks towards the end of the life cycle once the teams honour projects have 
+been completed.
+<br><br>
+<h2 style = "text-align: center; font-size: 60px;">5.References</h2>
+<hr/>
+<p style = "margin: 0px 150px; font-family: 'Roboto', sans-serif; font-size: 16px;">
+Atari, Inc. (2002). Dragon Ball Z: The Legacy of Goku (2002) [Software]
+<br><br>
+Barone, E., Sickhead Games (2016). Stardew Valley (2019) [Software] Available at: https://www.stardewvalley.net/shop/ [Accessed: 12 Feb. 2020]
+<br><br>
+Blizzard Entertainment (2004). World of Warcraft (2019) [Software] Available at: https://worldofwarcraft.com/en-us/ [Accessed: 10 Feb. 2020]
+<br><br>
+Devolver Digital (2012). Hotline Miami (2019) [Software] Available at: https://hotlinemiami.com/ [Accessed: 12 Feb. 2020]
+<br><br>
+DMA Design (1995). Race’n’Chase Game Design [v1.05] Available at: https://www.gamedevs.org/uploads/grand-theft-auto.pdf [Accessed: 12 Feb. 2020]
+<br><br>
+Bethesda Game Studios (2011). The Elder Scrolls V: Skyrim (2019) [Software] Available at: https://elderscrolls.bethesda.net/en/skyrim [Accessed: 12 Feb. 2020]
+<br><br>
+Irrational Games (2002). BioShock Pitch. Available at: https://www.systemshock.org/index.php?topic=2121.0 [Accessed: 12 Feb. 2020]
+<br><br>
+Jagex (2001) Old School RuneScape (2019). [Software] Available at: https://oldschool.runescape.com/ [Accessed: 10 Feb. 2020]
+<br><br>
+Mojang (2009) MineCraft (2020) [Software] Available at: https://www.minecraft.net/en-us/ [Accessed: 12 Feb. 2020]
+<br><br>
+Nintendo (1996). Pokémon Red and Blue (1998) [Software] Available at: https://www.pokemon.com/uk/ [Accessed: 10 Feb. 2020]
+<br><br>
+Re-Logic (2011). Terraria (2019) [Software] Available at: https://terraria.org/ [Accessed: 12 Feb. 2020]
+<br><br>
+Turbine (1999). Asheron’s Call (1999) [Software]
+<br><br>
+Ubisoft (2007). Assassin’s Creed Series (2018) [Software] Available at: https://www.ubisoft.com/ [Accessed: 12 Feb. 2020] </p>
+

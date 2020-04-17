@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medieval Glasgow</title>
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Import dependencies from other js files -->
+    <script src="IndexCode.js"> </script>
+
+</head>
+<body background="Images/DarkGrayBackground.jpg">
+<!-- Body contains standard website top banner linking to other pages -->
+<header class = "tm-header" >
+    <div class = "tm-container">
+        <img src="Images/Logo.png" alt="logo" width="200" height="100" class = "tm-logo" onmousedown="returnToHome()"/>
+        <nav class="tm-nav">
+            <ul>
+                <li><a id="Link1" onmouseover="mouseHoverOn()" onmouseout="mouseHoverOff()" href="game.html">Game</a></li>
+                <li><a href="Design.html">Design</a></li>
+                <li><a href="team.html?myVar=The Team">Team</a></li>
+                <li><a href="blog.html">Developer Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Division contains secondary banner with the game being displayed below -->
+<div class = "tm-container">
+    <div class = "tm-banner">
+        <h1 class = "tm-banner-header"> Medieval Glasgow </h1>
+        <h2 class = "tm-banner-title"> The legend of Dunbar </h2>
+    </div>
+</div>
+</div>
+</body>
+<canvas class="gamecanvas">
+</canvas>
+<!-- Standard footer -->
+ <footer>
+    <h1 class = "tm-footer">University Of the West of Scotland: Web Games Development 2 </h1>
+</footer>
+
+<script type="text/javascript" src="Game/JS/libs/phaser.js"></script>
+<script type="text/javascript" src="Game/JS/UI.js"></script>
+<script type="text/javascript" src="Game/JS/Equipment.js"></script>
+<script type="text/javascript" src="Game/JS/AssetLoaderUtils.js"></script>
+<script type="text/javascript" src="Game/JS/NPC.js"></script>
+<script type="text/javascript" src="Game/JS/Player.js"></script>
+<script type="text/javascript" src="Game/JS/LevelManager.js"></script>
+<script type="text/javascript" src="Game/JS/main.js"></script>
+</html>
+

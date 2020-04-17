@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 40px;
+}
+.tm-header
+{
+    background: url("Images/LightGrayBackground.jpg");
+}
+.tm-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tm-suggested-item-container{
+    max-width: 25%;
+    float: right;
+}
+
+.tm-suggested-item-container div{
+    background: url("Images/GrayBackground.jpg");
+    padding: 30px;
+}
+.tm-suggested-item-container ul{
+    list-style: none;
+}
+.tm-suggested-item-container ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: white;
+}
+
+.tm-suggested-item-container ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.tm-article-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+.tm-content{
+    max-width: 75%;
+}
+.tm-banner{
+    background: url("Images/GrayBackground.jpg");
+    text-align: center;
+}
+.tm-banner-header{
+    color: darkred;
+    text-decoration: underline;
+}
+.tm-banner-title{
+    color: darkslategrey;
+}
+
+.tm-nav ul li {
+    display: inline;
+    float: right;
+}
+.tm-nav ul li a{
+    padding: 10px 20px;
+    line-height: 100px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.tm-nav ul li a:hover{
+    color: red;
+}
+
+.tm-logo{
+    float: left;
+}
+.tm-footer{
+    clear: both;
+    background: url("Images/LightGrayBackground.jpg");
+    color: #7f7f7f;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+}
+.tm-image-debug{
+    display: block;
+}
+
+.tm-article-heading{
+    background: url("Images/GrayBackground.jpg");
+    text-align: center;
+    font-size: 50px;
+    color: darkred;
+}
+.tm-paragraph{
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, .7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+
+}
+.tm-paragraph a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.tm-paragraph a:hover{
+    color: darkblue;
+}
+.tm-header:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+h1{
+    font-size: 7em;
+    color: white;
+}
+
+.tm-team-headers{
+    font-size: 45px;
+    font-weight: bolder;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+.tm-team-articles{
+    float:right;
+    text-align: justify;
+}
+.tm-team-images{
+    float:left;
+    padding: 20px;
+}
+.tm-blog-container{
+    text-align: center;
+    /*background: blue;*/
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 250px;
+    padding: 10px 10px;
+}
+.tm-blog-container-inner{
+    height: 230px;
+    background: black;
+    margin: 10px auto;
+}
+.tm-blog-title{
+    position: relative;
+    top: -50%;
+    color: red;
+    text-align: left;
+    padding: 5px;
+    font-size: 60px;
+}
+
+.tm-blog-title a {
+    color: red;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Six Caps', sans-serif;
+}
+.tm-blogpost-container{
+    text-align: center;
+    background: black;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 470px;
+    padding: 10px 10px;
+}
+.tm-blogpost-container-inner{
+    height: 450px;
+    background: black;
+    margin: 10px auto;
+}
+
+.tm-blogpost-title{
+    position: relative;
+    top: -25%;
+    color: red;
+    text-align: left;
+    padding: 5px;
+    font-size: 80px;
+}
+.tm-blogpost-subtitle{
+
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tm-paragraph ul{
+    list-style: circle;
+}
+.tm-paragraph ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.tm-blog-image{
+    width: 1200px;
+    height: 230px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.tm-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.gamecanvas {
+    margin-left: 260px;
+}

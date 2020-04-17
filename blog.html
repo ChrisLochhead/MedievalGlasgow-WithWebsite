@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <!-- Online font dependencies -->
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- All css contained in the single main css file -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Import dependencies from other js files -->
+    <script src="BlogPostCode.js"> </script>
+    <script src="indexCode.js"> </script>
+</head>
+<!-- Body section containing common background and top banner -->
+<body background="Images/DarkGrayBackground.jpg">
+<header class = "tm-header" >
+    <div class = "tm-container">
+        <img src="Images/Logo.png" alt="logo" width="200" height="100" class = "tm-logo" onmousedown="returnToHome()"/>
+        <nav class="tm-nav">
+            <ul>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="Design.html">Design</a></li>
+                <li><a href="team.html?myVar=The Team">Team</a></li>
+                <li><a href="blog.html">Developer Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Divisions containing blog sections -->
+<!-- Each section corresponds to one of the three available blog posts. -->
+<div class = "tm-blog-container">
+    <div class = "tm-blog-container-inner">
+        <img class = "tm-blog-image" id="blog1" src = "Images/Conceiving%20the%20Idea.jpg" onmousedown="GoToBlog('Conceiving the Idea')" onmouseenter="HoverEffect(1, 'blog1')" onmouseout="HoverEffect(0, 'blog1')"/>
+        <h1 class = "tm-blog-title" onmouseenter="HoverEffect(1, 'blog1')"><a href = "blogpost.html?myVar1=Conceiving the Idea">Week One: Conceiving the Idea</a></h1>
+    </div>
+</div>
+<div class = "tm-blog-container">
+    <div class = "tm-blog-container-inner">
+        <img  id = "blog2" class = "tm-blog-image" src = "Images/Developing%20the%20Plot.jpg" onmousedown="GoToBlog('Developing the Plot')" onmouseenter="HoverEffect(1, 'blog2')" onmouseout="HoverEffect(0, 'blog2')"/>
+        <h1 class = "tm-blog-title" onmouseenter="HoverEffect(1, 'blog2')"><a href = "blogpost.html?myVar1=Developing the Plot"> Week Two: Developing the Plot </a></h1>
+    </div>
+</div>
+<div class = "tm-blog-container">
+    <div class = "tm-blog-container-inner">
+        <img id="blog3" class = "tm-blog-image" src = "Images/Working%20with%20Phazer.jpg" onmousedown="GoToBlog('Working with Phazer')" onmouseenter="HoverEffect(1, 'blog3')" onmouseout="HoverEffect(0, 'blog3')"/>
+        <h1 class = "tm-blog-title" onmouseenter="HoverEffect(1, 'blog3')"><a href = "blogpost.html?myVar1=Working with Phazer"> Week Three: Working with Phazer </a></h1>
+    </div>
+</div>
+</body>
+<!-- Standard footer -->
+<footer>
+    <h1 class = "tm-footer"> University Of the West of Scotland: Web Games Development 2 </h1>
+</footer>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Online font dependencies -->
+    <link href="https://fonts.googleapis.com/css?family=Six+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- All css contained in the single main css file -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Import dependencies from other js files -->
+    <script src="WikiCode.js"> </script>
+</head>
+<!-- Body contains standard top banner -->
+<body background="Images/DarkGrayBackground.jpg">
+<header class = "tm-header" >
+    <div class = "tm-container">
+        <img src="Images/Logo.png" alt="logo" width="200" height="100" class = "tm-logo" onmousedown="returnToHome()"/>
+        <nav class="tm-nav">
+            <ul>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="Design.html">Design</a></li>
+                <li><a href="team.html?myVar=The Team">Team</a></li>
+                <li><a href="blog.html">Developer Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Secondary container contains Selected article content including image and text with a sidebar
+    having its contents determined depending on which article is currently selected -->
+<div class = "tm-container">
+<section class = tm-article-container">
+    <h1 class = "tm-article-heading" id="ArticleHeading"></h1>
+    <img id="ArticleImage" width="1200">
+    <!-- other links container -->
+    <div class = "tm-suggested-item-container">
+        <div>
+            <h3 class = "tm-article-heading"> Suggested Articles </h3>
+            <ul>
+                <li class = "tm-sidebar-item" id="FirstSuggestion"><a id = "FirstSuggestionLink" href="wiki.html?myVar1=Dave O Summerston">Dave 'O' Summerston </a></li>
+                <img src="Images/Gareth%20Of%20Dunbar.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Dave O Summerston')" id="FirstSuggestionImage" />
+                <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Corsa"> Corsa </a></li>
+                <img src="Images/Corsa.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Corsa')">
+                <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Gando the Grey"> Gando the Grey </a></li>
+                <img src="Images/Gando%20the%20Grey.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Gando the Grey)')">
+                <li class = "tm-sidebar-item"><a href="wiki.html?myVar1=Possil">  Possil </a></li>
+                <img src="Images/Possil.jpg" width="200" height="100" onmousedown="changePage('wiki.html?myVar1=Possil')">
+            </ul>
+        </div>
+    </div>
+    <!-- Container for the text itself -->
+    <p class = "tm-paragraph tm-content" id="MainArticle" ></p>
+</section>
+</div>
+</body>
+<!-- Standard footer -->
+<footer>
+    <h1 class = "tm-footer"> </h1>
+</footer>
+</html>
